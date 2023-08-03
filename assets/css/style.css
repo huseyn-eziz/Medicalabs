@@ -1,31 +1,41 @@
 * {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: Montserrat;
 }
 
 :root {
   --cernl: #8d5cf6;
   --benov: #ea4c89;
 }
-header{
-    display: flex;
-    justify-content: center;
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
 }
 .navbar {
-  margin-top: 40px;
+  padding: 40px;
   width: 1322px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: baseline;
 }
 
 .navbar h2 {
+  position: relative;
+  left: -20px;
   font-size: 2rem;
 }
 
 .navbar .linkler {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   position: relative;
   left: -70px;
 }
@@ -37,24 +47,28 @@ header{
 .navbar .linkler li a {
   color: black;
   text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.navbar h3 {
+  position: relative;
+  right: -70px;
   font-size: 1.2rem;
 }
 
-.navbar .login {
-  display: flex;
-  gap: 20px;
-  position: relative;
-}
-.navbar h3 {
-  position: relative;
-  right: -80px;
-  font-size: 1.2rem;
-}
 .navbar .login .button {
-  border: 1px solid black;
-  padding: 20px;
+  background-color: var(--cernl);
+  padding: 15px 25px;
   font-size: 1.2rem;
+  border-radius: 6px;
+  color: white;
+  border: 1px solid --cernl;
+  font-family: montserrat;
 }
-.navbar{
-    background-color: #ffcccf;
+
+.navbar .login .button i {
+  padding-left: 10px;
+}
+.navbar {
+  background-color: #ffcccf;
 }
