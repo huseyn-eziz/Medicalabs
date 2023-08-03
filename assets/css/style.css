@@ -2,6 +2,7 @@
   margin: 0;
   font-size: 14px;
   font-family: Montserrat;
+  box-sizing: border-box;
 }
 
 :root {
@@ -30,6 +31,7 @@ header {
   position: relative;
   left: -20px;
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .navbar .linkler {
@@ -73,56 +75,75 @@ header {
   width: 1440px;
 }
 
-.ouractivity .container .ilk {
+.forbetter .container .ilk {
   display: flex;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
-.ouractivity .container .ilk .col-md-6 {
+.forbetter .container .ilk .col-md-6 {
   flex-direction: column;
   gap: 20px;
   display: flex;
 }
 
-.ouractivity .container .ilk .col-md-6 h1 {
+.forbetter .container .ilk .col-md-6 .h1 h1 {
   font-size: 4rem;
   font-weight: 800;
   padding-left: 10px;
   color: #252B42;
+  padding-inline: 20px;
+  padding-top: 30px;
+  line-height: 80px;
 }
 
-.ouractivity .container .ilk .col-md-6 .h1 {
+.forbetter .container .ilk .col-md-6 .h1 .hh{
+    position: relative;
+    top: -40px;
+}
+
+.forbetter .container .ilk .col-md-6 .h1 {
     border: 1px dashed var(--cernl);
     border-radius: 7px;
     border-right-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 90%;
+    height: 370px;
+    
 }
 
-.ouractivity .container .ilk .col-md-6 h2 {
-  font-size: 2rem;
+.forbetter .container .ilk .col-md-6 h2 {
+  font-size: 1rem;
   color: var(--cernl);
   margin: 20px 0;
+  font-weight: 900;
 }
 
-.ouractivity .container .ilk .col-md-6 .buttonlar{
-    margin-top: 20px;
+.forbetter .container .ilk .col-md-6 h3{
+    font-size: 20px;
+    color: #737373;
+    width: 40ch;
+}
+
+.forbetter .container .ilk .col-md-6 .buttonlar{
+    margin-top: 10px;
     display: flex;
     gap: 10px;
 }
 
-.ouractivity .container .ilk .col-md-6 .buttonlar>*{
+.forbetter .container .ilk .col-md-6 .buttonlar>*{
     border: 1px solid grey;
     padding: 15px 40px;
     border-radius: 5px;
     font-weight: 700;
 }
 
-.ouractivity .container .ilk .col-md-6 .buttonlar .button1{
+.forbetter .container .ilk .col-md-6 .buttonlar .button1{
     background-color: var(--cernl);
     color: white;
 }
 
-.ouractivity .container .ilk .col-md-6 .buttonlar .button2{
+.forbetter .container .ilk .col-md-6 .buttonlar .button2{
     background-color: white;
     color: var(--cernl);
 }
+
