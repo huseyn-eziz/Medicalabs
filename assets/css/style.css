@@ -147,3 +147,13 @@ header {
     color: var(--cernl);
 }
 
+.companies .container{
+    display: flex;
+    justify-content: center;
+}
+.companies .container .row {
+    margin: 100px;
+    display: flex;
+    width: 1054px;
+    justify-content: space-between;
+}
