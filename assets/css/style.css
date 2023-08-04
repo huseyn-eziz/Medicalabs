@@ -15,9 +15,8 @@
   src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-
 .navbar {
-    margin: 0 auto;
+  margin: 0 auto;
   padding: 40px;
   width: 1322px;
   display: flex;
@@ -187,9 +186,9 @@
 }
 
 .ouractivity .container .r2 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .ouractivity .container .r2 .col-md-3 h5::after {
@@ -219,8 +218,42 @@
 }
 
 .thebestreference .container .row {
-    display: flex;
+  display: flex;
   margin: 200px 0;
 }
 
-.thebestreference .container .row
+.thebestreference .container .row .ikinci {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 381px;
+  margin-left: 100px;
+}
+
+.thebestreference .container .row .ikinci h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 30px 0;
+}
+
+.thebestreference .container .row .ikinci h2::before {
+  content: "";
+  width: 94px;
+  height: 7px;
+  background-color: var(--benov);
+  display: block;
+  margin-bottom: 40px;
+}
+
+.thebestreference .container .row .ikinci p{
+    width: 351px;
+}
+
+.thebestreference .container .row .ikinci h5 {
+  color: var(--cernl);
+  font-weight: 700;
+  line-height: 24px;
+  margin: 30px 0;
+}
