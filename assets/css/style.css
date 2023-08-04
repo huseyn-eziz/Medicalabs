@@ -215,6 +215,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    box-shadow: 0 5px 0px #7b727233     ;
 
 }
 
@@ -225,4 +226,9 @@ header {
 
 .ouractivity .container .r2 .col-md-3 p{
     width: 132px;
+}
+
+
+.thebestreference .container .row{
+    margin: 200px 0;
 }
