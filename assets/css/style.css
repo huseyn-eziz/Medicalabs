@@ -86,17 +86,24 @@ h5 {
 }
 
 .forbetter .container .ilk .col-md-6 {
+  position: relative;
   flex-direction: column;
   gap: 20px;
   display: flex;
 }
 
+.forbetter .container .ilk .col-md-6 img {
+  position: absolute;
+  width: 704px;
+  height: 642px;
+  bottom:   -10px;
+  top: -22px;
+}
 .forbetter .container .ilk .col-md-6 .h1 h1 {
   font-size: 4rem;
   font-weight: 800;
   padding-left: 10px;
   color: #252b42;
-  padding-inline: 20px;
   padding-top: 30px;
   line-height: 80px;
 }
@@ -112,7 +119,7 @@ h5 {
   border-right-style: none;
   margin-top: 20px;
   width: 90%;
-  height: 370px;
+  height: 350px;
 }
 
 .forbetter .container .ilk .col-md-6 h2 {
@@ -152,7 +159,7 @@ h5 {
 }
 
 .companies .container .row {
-  margin: 100px;
+  margin: 150px auto;
   display: flex;
   width: 1054px;
   justify-content: space-between;
@@ -162,7 +169,7 @@ h5 {
   width: 1050px;
 }
 .ouractivity .container .r1 {
-  margin: 200px -20px 100px;
+  margin: 100px -20px 100px;
 }
 
 .ouractivity .container .r1 h2 {
@@ -414,12 +421,11 @@ h5 {
   color: #e77c40;
 }
 
-
-.ourdoctors .container .second .col .althisse .althisseic .learn{
-    border: 1px solid var(--cernl);
-    text-align: center;
-    color: var(--cernl);
-    padding: 10px 25px;
-    border-radius: 50px;
-    width: fit-content  ;
+.ourdoctors .container .second .col .althisse .althisseic .learn {
+  border: 1px solid var(--cernl);
+  text-align: center;
+  color: var(--cernl);
+  padding: 10px 25px;
+  border-radius: 50px;
+  width: fit-content;
 }
