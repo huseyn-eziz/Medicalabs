@@ -15,11 +15,9 @@
   src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
+
 .navbar {
+    margin: 0 auto;
   padding: 40px;
   width: 1322px;
   display: flex;
@@ -73,6 +71,7 @@ header {
 
 .container {
   width: 1440px;
+  margin: 0 auto;
 }
 
 .forbetter .container .ilk {
@@ -90,25 +89,24 @@ header {
   font-size: 4rem;
   font-weight: 800;
   padding-left: 10px;
-  color: #252B42;
+  color: #252b42;
   padding-inline: 20px;
   padding-top: 30px;
   line-height: 80px;
 }
 
-.forbetter .container .ilk .col-md-6 .h1 .hh{
-    position: relative;
-    top: -40px;
+.forbetter .container .ilk .col-md-6 .h1 .hh {
+  position: relative;
+  top: -40px;
 }
 
 .forbetter .container .ilk .col-md-6 .h1 {
-    border: 1px dashed var(--cernl);
-    border-radius: 7px;
-    border-right-style: none;
-    margin-top: 20px;
-    width: 90%;
-    height: 370px;
-    
+  border: 1px dashed var(--cernl);
+  border-radius: 7px;
+  border-right-style: none;
+  margin-top: 20px;
+  width: 90%;
+  height: 370px;
 }
 
 .forbetter .container .ilk .col-md-6 h2 {
@@ -118,117 +116,111 @@ header {
   font-weight: 900;
 }
 
-.forbetter .container .ilk .col-md-6 h3{
-    font-size: 20px;
-    color: #737373;
-    width: 40ch;
+.forbetter .container .ilk .col-md-6 h3 {
+  font-size: 20px;
+  color: #737373;
+  width: 40ch;
 }
 
-.forbetter .container .ilk .col-md-6 .buttonlar{
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
+.forbetter .container .ilk .col-md-6 .buttonlar {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
 }
 
-.forbetter .container .ilk .col-md-6 .buttonlar>*{
-    border: 1px solid grey;
-    padding: 15px 40px;
-    border-radius: 5px;
-    font-weight: 700;
+.forbetter .container .ilk .col-md-6 .buttonlar > * {
+  border: 1px solid grey;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 700;
 }
 
-.forbetter .container .ilk .col-md-6 .buttonlar .button1{
-    background-color: var(--cernl);
-    color: white;
+.forbetter .container .ilk .col-md-6 .buttonlar .button1 {
+  background-color: var(--cernl);
+  color: white;
 }
 
-.forbetter .container .ilk .col-md-6 .buttonlar .button2{
-    background-color: white;
-    color: var(--cernl);
+.forbetter .container .ilk .col-md-6 .buttonlar .button2 {
+  background-color: white;
+  color: var(--cernl);
 }
 
-.companies .container{
-    display: flex;
-    justify-content: center;
-}
 .companies .container .row {
-    margin: 100px;
-    display: flex;
-    width: 1054px;
-    justify-content: space-between;
+  margin: 100px;
+  display: flex;
+  width: 1054px;
+  justify-content: space-between;
 }
 
-
-.ouractivity{
-    display: flex;justify-content: center;
-}
 .ouractivity .container {
-    width: 1050px;
+  width: 1050px;
 }
 .ouractivity .container .r1 {
+  margin: 200px -20px 100px;
+}
+
+.ouractivity .container .r1 h2 {
+  font-size: 40px;
+  position: relative;
+  font-weight: 800;
+  color: #252b42;
+}
+
+.ouractivity .container .r1 p:nth-child(3) {
+  position: relative;
+  top: -14px;
+}
+
+.ouractivity .container .r1 h2::before {
+  content: "Cancer Care";
+  font-size: 14px;
+  position: absolute;
+  top: -30px;
+  color: var(--cernl);
+  font-weight: 700;
+}
+
+.ouractivity .container .r2 img {
+  margin-bottom: 35px;
+  width: 72px;
+  height: 72px;
+}
+
+.ouractivity .container .r2 {
     display: flex;
-    margin: 100px 0px;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
-.ouractivity .container .r1 h2{
-    font-size: 40px;
-    position: relative;
-    font-weight: 800;
-    color: #252B42 ;
+.ouractivity .container .r2 .col-md-3 h5::after {
+  content: "";
+  width: 65px;
+  height: 2px;
+  background-color: var(--benov);
+  display: block;
+  margin-top: 20px;
 }
 
-.ouractivity .container .r1 p:nth-child(3){
-    position: relative;
-    top: -14px;
+.ouractivity .container .r2 .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 5px 0px #7b727233;
+  width: 20%;
 }
 
-.ouractivity .container .r1 h2::before{
-    content:'Cancer Care' ;
-    font-size: 14px;
-    position: absolute;
-    top: -30px;
-    color: var(--cernl);
-    font-weight: 700;
+.ouractivity .container .r2 .col-md-3 h5 {
+  font-weight: 700;
+  line-height: 24px;
 }
 
-.ouractivity .container .r2 img{
-    margin-bottom: 35px;
-    width: 72px;
-    height: 72px;
+.ouractivity .container .r2 .col-md-3 p {
+  width: 132px;
 }
 
-.ouractivity .container .r2{
+.thebestreference .container .row {
     display: flex;
-    justify-content: space-between;
+  margin: 200px 0;
 }
 
-.ouractivity .container .r2 .col-md-3 h5::after{
-    content: '';
-    width: 65px;
-    height: 2px;
-    background-color: var(--benov);
-    display: block;
-    margin-top: 20px;
-}
-
-.ouractivity .container .r2 .col-md-3{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-shadow: 0 5px 0px #7b727233     ;
-
-}
-
-.ouractivity .container .r2 .col-md-3 h5{
-    font-weight: 700;
-    line-height: 24px;
-}
-
-.ouractivity .container .r2 .col-md-3 p{
-    width: 132px;
-}
-
-
-.thebestreference .container .row{
-    margin: 200px 0;
-}
+.thebestreference .container .row
