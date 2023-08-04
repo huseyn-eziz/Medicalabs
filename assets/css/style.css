@@ -291,42 +291,135 @@ h5 {
   justify-content: space-between;
 }
 
-.ourdoctors .container .second .col .img{
-    position: relative;
+.ourdoctors .container .second .col {
+  max-width: 238px;
 }
-.ourdoctors .container .second .col .img h6{
-    border: 1px solid red;
-    width: 51px;
-    height: 24px;
+
+.ourdoctors .container .second .col .img {
+  position: relative;
+}
+.ourdoctors .container .second .col .img h6 {
+  border: 1px solid red;
+  width: 51px;
+  height: 24px;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ourdoctors .container .second .col .img .icons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  position: absolute;
+  top: 236px;
+  left: 49px;
+  width: 140px;
+}
+
+.ourdoctors .container .second .col .img .icons i {
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .yuxari {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .yuxari img {
+  width: 50px;
+  height: 26px;
+}
+.ourdoctors .container .second .col .althisse .althisseic .yuxari h6 {
+  font-weight: 700;
+  color: var(--cernl);
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .yuxari h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic > h5 {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic p {
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic h6 {
+  font-weight: 700;
+  line-height: 24px;
+  color: #737373;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .h5h6 {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .h5h6 h5 {
+  color: #bdbdbd;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .h5h6 h6 {
+  color: #ff7b52;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .pro {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .pro h5 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .pro h5 i {
+  color: #8d5cf6;
+  margin-right: 5px;
+}
+
+.ourdoctors .container .second .col .althisse .althisseic .pro .aa {
+  color: #e77c40;
+}
+
+
+.ourdoctors .container .second .col .althisse .althisseic .learn{
+    border: 1px solid var(--cernl);
     text-align: center;
-    background-color: red;
-    color: #fff;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.ourdoctors .container .second .col .img .icons{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    position: absolute;
-    top: 236px;
-    left: 49px;
-    width: 140px;
-}
-
-.ourdoctors .container .second .col .img .icons i{
-    font-size: 20px;
-    background-color: #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ourdoctors .container .second .col .althisse .althisseic .yuxari{
-    
+    color: var(--cernl);
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: fit-content  ;
 }
