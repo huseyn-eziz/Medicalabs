@@ -477,12 +477,77 @@ h5 {
   text-align: center;
 }
 
-.ourdepartment .container .second .col h5{
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
+.ourdepdepartmentartment .container .second .col h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
-.ourdepartment .container .second .col h6{
-    font-weight: 700;
+.ourdepartment .container .second .col h6 {
+  font-weight: 700;
+}
+
+.ourteam .container .first {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourteam .container .first h6 {
+  color: var(--cernl);
+  font-weight: 700;
+}
+
+.ourteam .container .first h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.ourteam .container .first p {
+  margin: 0;
+}
+
+.ourteam .container .second {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourteam .container .second .col {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ourteam .container .second .col .img {
+  border: 1px solid white;
+  width: 238px;
+  height: 231px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.ourteam .container .second .col h6 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.ourteam .container .second .col h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.ourteam .container .second .col .icons{
+    display: flex;
+    gap: 15px;
+}
+
+.ourteam .container .second .col .icons i{
+    color: var(--benov);
+    font-size: 20px;
 }
