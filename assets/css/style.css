@@ -510,7 +510,8 @@ h5 {
 .ourteam .container .second {
   margin-top: 120px;
   display: flex;
-  justify-content: space-between;
+  gap: 14px;
+
 }
 
 .ourteam .container .second .col {
@@ -518,7 +519,14 @@ h5 {
   gap: 5px;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 5px 0px #7b72720f;
+  width: 23%;
+  height: 375px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+
 }
+
 
 .ourteam .container .second .col .img {
   border: 1px solid white;
@@ -542,12 +550,63 @@ h5 {
   line-height: 24px;
 }
 
-.ourteam .container .second .col .icons{
-    display: flex;
-    gap: 15px;
+.ourteam .container .second .col .icons {
+  display: flex;
+  gap: 15px;
 }
 
-.ourteam .container .second .col .icons i{
-    color: var(--benov);
-    font-size: 20px;
+.ourteam .container .second .col .icons i {
+  color: var(--benov);
+  font-size: 20px;
+}
+
+.joinus .container .first {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.joinus .container .first h6 {
+  color: var(--cernl);
+  font-weight: 700;
+}
+
+.joinus .container .first h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.joinus .container .first p {
+  margin: 0;
+}
+
+.joinus .container .first .input {
+  margin-top: 80px;
+}
+
+.joinus .container .first .input input {
+  height: 49px;
+  width: 600px;
+  border: 1px solid #e6e6e6;
+}
+
+.joinus .container .first .input input::placeholder {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.joinus .container .first .input button {
+  border: 1px solid #8d5cf6;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 49px;
+  background-color: #8d5cf6;
+  color: white;
+  position: relative;
+  padding: 0 20px;
+  left: -3.3px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }
