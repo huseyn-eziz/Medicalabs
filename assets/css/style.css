@@ -417,21 +417,13 @@ h5 {
 .ourdepartment .container .first {
   margin-top: 10rem;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
 .ourdepartment .container .first h6 {
   color: var(--cernl);
   font-weight: 700;
-}
-
-.ourdepartment .container .first h2 {
-  font-weight: 700;
-  font-size: 3rem;
-}
-
-.ourdepartment .container .first p {
-  margin: 0;
 }
 
 .ourdepartment .container .second {
