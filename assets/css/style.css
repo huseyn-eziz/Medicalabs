@@ -326,20 +326,18 @@ h5 {
 
 .ourdoctors .container .second .col .img .icons {
   display: flex;
-  gap: 10px;
-  justify-content: space-between;
+  gap: 1rem;
   position: absolute;
-  top: 236px;
-  left: 49px;
-  max-width: 13rem;
+  top: 14.5rem;
+  left: 2.5rem;
 }
 
 .ourdoctors .container .second .col .img .icons i {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   background-color: #fff;
   border-radius: 50%;
-  max-width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
