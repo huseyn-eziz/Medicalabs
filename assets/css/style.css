@@ -358,39 +358,21 @@ h5 {
   height: 2rem;
 }
 .ourdoctors .container .second .col .althisse .althisseic .yuxari h6 {
-  font-weight: 700;
   color: var(--cernl);
-}
-
-.ourdoctors .container .second .col .althisse .althisseic .yuxari h5 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.7rem;
-  letter-spacing: 0.10000000149011612px;
-  text-align: left;
 }
 
 .ourdoctors .container .second .col .althisse .althisseic > h5 {
   margin-top: 2rem;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.7rem;
-}
-
-.ourdoctors .container .second .col .althisse .althisseic p {
-  font-weight: 400;
-  line-height: 1.4rem;
 }
 
 .ourdoctors .container .second .col .althisse .althisseic h6 {
   font-weight: 700;
-  line-height: 1.7rem;
-  color: #737373;
 }
 
 .ourdoctors .container .second .col .althisse .althisseic .h5h6 {
   margin: 1.4rem 0;
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 
@@ -400,9 +382,6 @@ h5 {
 
 .ourdoctors .container .second .col .althisse .althisseic .h5h6 h6 {
   color: #ff7b52;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.7rem;
 }
 
 .ourdoctors .container .second .col .althisse .althisseic .pro {
@@ -430,13 +409,13 @@ h5 {
   border: 1px solid var(--cernl);
   text-align: center;
   color: var(--cernl);
-  padding: 10px 20.4rem;
-  border-radius: 50px;
+  padding: 0.7rem 1rem;
+  border-radius: 3.5rem;
   max-width: fit-content;
 }
 
 .ourdepartment .container .first {
-  margin-top: 150px;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
 }
