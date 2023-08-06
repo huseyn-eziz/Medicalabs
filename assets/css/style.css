@@ -32,6 +32,9 @@ p {
 
 h6 {
   color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 h5 {
@@ -138,7 +141,7 @@ h5 {
 
 .forbetter .container .ilk .col-md-6 .h1 {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   flex-direction: column;
   border: 1px dashed var(--cernl);
   border-radius: 0.5rem;
@@ -186,7 +189,7 @@ h5 {
   max-width: 75rem;
 }
 
-.companies .container .row{
+.companies .container .row {
   max-width: 100%;
 }
 
@@ -247,14 +250,13 @@ h5 {
   max-width: 20%;
 }
 
-
 .thebestreference .container .row {
   display: flex;
   flex-wrap: wrap;
   margin: 14rem auto;
 }
 
-.thebestreference .container .row .birinci{
+.thebestreference .container .row .birinci {
   max-width: 52%;
 }
 
@@ -315,7 +317,7 @@ h5 {
 }
 .ourdoctors .container .second .col .img h6 {
   padding: 0.5rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
   background-color: red;
   color: #fff;
@@ -354,7 +356,7 @@ h5 {
 }
 
 .ourdoctors .container .second .col .althisse .althisseic .yuxari img {
-  width: 3.2rem;  
+  width: 3.2rem;
   height: 2rem;
 }
 .ourdoctors .container .second .col .althisse .althisseic .yuxari h6 {
@@ -364,11 +366,6 @@ h5 {
 .ourdoctors .container .second .col .althisse .althisseic > h5 {
   margin-top: 2rem;
 }
-
-.ourdoctors .container .second .col .althisse .althisseic h6 {
-  font-weight: 700;
-}
-
 .ourdoctors .container .second .col .althisse .althisseic .h5h6 {
   margin: 1.4rem 0;
   display: flex;
@@ -423,26 +420,25 @@ h5 {
 
 .ourdepartment .container .first h6 {
   color: var(--cernl);
-  font-weight: 700;
 }
 
 .ourdepartment .container .second {
-  margin-top: 11.4rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: space-evenly;
 }
 
 .ourdepartment .container .second .col {
+  max-width: 23rem;
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   flex-direction: column;
   align-items: center;
 }
 
 .ourdepartment .container .second .col .img {
-  border: 1px solid white;
-  max-width: 128px;
-  height: 128px;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1.4rem;
@@ -451,12 +447,6 @@ h5 {
 .ourdepartment .container .second .col p {
   max-width: 31.4rem;
   text-align: center;
-}
-
-.ourdepdepartmentartment .container .second .col h5 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.7rem;
 }
 
 .ourdepartment .container .second .col h6 {
@@ -471,7 +461,6 @@ h5 {
 
 .ourteam .container .first h6 {
   color: var(--cernl);
-  font-weight: 700;
 }
 
 .ourteam .container .first h2 {
@@ -540,7 +529,6 @@ h5 {
 
 .joinus .container .first h6 {
   color: var(--cernl);
-  font-weight: 700;
 }
 
 .joinus .container .first h2 {
@@ -641,20 +629,8 @@ h5 {
   line-height: 1.7rem;
 }
 
-.footer .first h6 {
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.7rem;
-}
-
 .footer .container .second {
   margin-top: 100px;
-}
-
-.footer .container .second h6 {
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.7rem;
 }
 
 .footer .container .second .icons {
