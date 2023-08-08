@@ -608,13 +608,15 @@ h5 {
 }
 
 .footer .container .second {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, auto);
+  display: flex;
   justify-content: space-between;
   margin-top: 7rem;
 }
 
 .footer .container .second .icons {
+  position: relative;
+  top: -2rem;
+  justify-content: flex-end;
   display: flex;
   gap: 1rem;
 }
@@ -647,6 +649,23 @@ h5 {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
+  }
+
+  .forbetter .col-md-6 img {
+    position: relative;
+    width: 88%;
+    height: 100%;
+  }
+  .forbetter .container .ilk .col-md-6:nth-child(2) {
+    width: 100%;
+  }
+
+  .forbetter .container .ilk .col-md-6 .h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px dashed var(--cernl);
+    border-radius: 0.5rem;
   }
 
   .companies .container .row {
@@ -689,7 +708,7 @@ h5 {
 
   .thebestreference .container .row .ikinci h2::before {
     content: "";
-    width: 14rem;
+    width: 24rem;
     height: 0.5rem;
     background-color: var(--benov);
     margin-bottom: 3rem;
@@ -704,24 +723,7 @@ h5 {
     margin: 0;
   }
 
-  .forbetter .col-md-6 img {
-    position: relative;
-    width: 88%;
-    height: 100%;
-  }
-  .forbetter .container .ilk .col-md-6:nth-child(2) {
-    width: 100%;
-  }
-
-  .forbetter .container .ilk .col-md-6 .h1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border: 1px dashed var(--cernl);
-    border-radius: 0.5rem;
-  }
-  
-  .ourdoctors .container .first{
+  .ourdoctors .container .first {
     text-align: center;
   }
 
@@ -730,14 +732,29 @@ h5 {
     justify-content: center;
     gap: 2rem;
   }
+  .ourdoctors .container .second .col .althisse .althisseic {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourdoctors .container .second .col .althisse .althisseic .yuxari{
+   width: 100%;
+  }
+  .ourdoctors .container .second .col .althisse .althisseic .pro{
+    width: 100%;
+  }
+
+
+  .ourdepartment .container .first {
+    text-align: center;
+  }
 
   .ourdepartment .container .second {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-
-  .ourdepartment .container
 
   .footer .container .first {
     display: flex;
@@ -759,5 +776,4 @@ h5 {
   .footer .container .second .icons {
     justify-content: center;
   }
-
 }
