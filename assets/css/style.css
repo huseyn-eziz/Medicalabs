@@ -756,7 +756,17 @@ h5 {
     gap: 3rem;
   }
 
-  .ourteam
+  .ourteam .container .first,.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ourteam .container .second{
+    gap: 3rem;
+  }
+
 
   .footer .container .first {
     display: flex;
