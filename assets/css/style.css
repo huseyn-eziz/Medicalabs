@@ -786,5 +786,7 @@ h5 {
 
   .footer .container .second .icons {
     justify-content: center;
+    position: relative;
+    top: 1rem;
   }
 }
