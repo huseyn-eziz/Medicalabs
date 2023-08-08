@@ -723,7 +723,6 @@ h5 {
   
   .ourdoctors .container .first{
     text-align: center;
-
   }
 
   .ourdoctors .container .second {
@@ -737,6 +736,8 @@ h5 {
     align-items: center;
     flex-direction: column;
   }
+
+
 
   .footer .container .first {
     display: flex;
