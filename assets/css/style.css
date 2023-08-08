@@ -219,7 +219,7 @@ h5 {
 }
 
 .ouractivity .container .r1 h2::before {
-  content: "Xərçəngə Qulluq";
+  content: "Xercenge Qulluq";
   font-size: 1rem;
   position: absolute;
   top: -2rem;
@@ -695,7 +695,7 @@ h5 {
   }
 
   .ouractivity .container .r1 h2::before {
-    margin-left: 6rem;
+    margin-left: 5.5rem;
   }
   .ouractivity .container .r2 .col-md-3 h5::after {
     content: "";
