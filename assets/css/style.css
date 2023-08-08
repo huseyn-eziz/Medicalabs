@@ -745,7 +745,6 @@ h5 {
     width: 100%;
   }
 
-
   .ourdepartment .container .first {
     text-align: center;
   }
@@ -756,6 +755,8 @@ h5 {
     flex-direction: column;
     gap: 3rem;
   }
+
+  .ourteam
 
   .footer .container .first {
     display: flex;
