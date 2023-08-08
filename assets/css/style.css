@@ -721,17 +721,24 @@ h5 {
     border-radius: 0.5rem;
   }
   
+  .ourdoctors .container .first{
+    text-align: center;
+
+  }
+
   .ourdoctors .container .second {
     display: flex;
     justify-content: center;
+    gap: 2rem;
   }
-  
+
 
   .ourdepartment .container .second {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+  
 
   .footer .container .first {
     display: flex;
